@@ -6,19 +6,25 @@ html{
 }
 
 /*--------------------Navigation Bar-----------------*/
+
+.logo{
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 60px;
+}
 .navbar-brand{
     color: rgba(239,139,111,400);
     font-weight: 645;
     margin-top: 20px;
-    margin-left: 60px;
-    margin-right: 310px;
+    margin-left: 10px;
+    margin-right: 320px;
 }
 
 .nav-link{
     color: #ef8b6f;
     font-weight: 645;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .btn{
@@ -29,7 +35,7 @@ html{
     padding-right: 35px;
     padding-top: 12px;
     padding-bottom: 12px;
-    margin-left: 115px;
+    margin-left: 130px;
     margin-top: 20px;
     font-weight: 640;
     border-radius: 60px;
