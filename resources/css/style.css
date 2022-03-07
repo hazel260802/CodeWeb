@@ -1,29 +1,39 @@
 html{
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #fff3e0;
     
 }
 
 /*--------------------Navigation Bar-----------------*/
-
+.navbar{
+    border: 1px solid white;
+    padding-top: 2px;
+    margin-top: 10px;
+}
 .logo{
-    width: 70px;
-    margin-top: 20px;
-    border-radius: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 35px;
 }
 .navbar-brand{
     color: rgba(239,139,111,400);
-    font-weight: 645;
-    margin-top: 20px;
+    font-weight: 648;
+    margin-top: 3px;
     margin-left: 10px;
-    margin-right: 320px;
+    margin-right: 390px;
 }
 
+.slogan{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 648;
+    margin-left: 28px;
+}
 .nav-link{
     color: #ef8b6f;
-    font-weight: 645;
-    margin-top: 20px;
+    font-weight: 648;
+    margin-top: 5px;
     margin-left: 80px;
 }
 
@@ -35,9 +45,9 @@ html{
     padding-right: 35px;
     padding-top: 12px;
     padding-bottom: 12px;
-    margin-left: 130px;
-    margin-top: 20px;
-    font-weight: 640;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-weight: 648;
     border-radius: 60px;
 }
 
