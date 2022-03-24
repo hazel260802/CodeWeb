@@ -40,8 +40,8 @@ $(function(){
     <h3>Starch/ Carbohydrates</h3>
     <div class="row">
       <div class="col span_1_of_3 food-picture">
-        <a href="rice&pasta.html"><img src="/resources/image/rice and pasta.jpg" id="food-img" alt="rice and pasta"></a>
-        <a href="rice&pasta.html"> <h4>Rice and Pasta</h4></a>
+        <a href="#!"><img src="/resources/image/rice and pasta.jpg" id="food-img" alt="rice and pasta"></a>
+        <a href="#"> <h4>Rice and Pasta</h4></a>
         <button class="btn-ingre"><a href="rice&pasta.html">View more</a></button>
       </div>
       <div class="col span_1_of_3 food-picture">
@@ -241,24 +241,66 @@ $(function(){
     </a>
   </div>
   <!-- --------------------------------------------- -->
+
   <h3>Dairy</h3>
-  <div class="row">
-    <div class="col span_1_of_3 food-picture">
-      <a href="#"><img src="/resources/image/milk.jpg" id="food-img" alt="milk"></a>
-      <a href="milk.html"> <h4>Milk</h4></a>
-      <button class="btn-ingre"><a href="milk.html">View more</a></button>
-    </div>
-    <div class="col span_1_of_3 food-picture">
-      <a href="#!"><img src="/resources/image/cheese.jpg" alt="cheese"></a>
-      <a href="#"> <h4>Cheese</h4></a>
-      <button class="btn-ingre"><a href="cheese.html">View more</a></button>
-    </div>
-    <div class="col span_1_of_3 food-picture">
-      <a href="#!"><img src="/resources/image/Yogurt.jpg" alt="Yogurt"></a>
-      <a href="#"> <h4>Yogurt</h4></a>
-      <button class="btn-ingre"><a href="yogurt.html">View more</a></button>
-    </div>
+  </section>
+  <div id="carouselIndicators3" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col span_1_of_3 food-picture">
+            <a href="#"><img src="/resources/image/milk.jpg" id="food-img" alt="milk"></a>
+            <a href="milk.html"> <h4>Milk</h4></a>
+            <button class="btn-ingre"><a href="milk.html">View more</a></button>
+          </div>
+          <div class="col span_1_of_3 food-picture">
+            <a href="#!"><img src="/resources/image/cheese.jpg" alt="cheese"></a>
+            <a href="#"> <h4>Cheese</h4></a>
+            <button class="btn-ingre"><a href="cheese.html">View more</a></button>
+          </div>
+          <div class="col span_1_of_3 food-picture">
+            <a href="#!"><img src="/resources/image/Yogurt.jpg" alt="Yogurt"></a>
+            <a href="#"> <h4>Yogurt</h4></a>
+            <button class="btn-ingre"><a href="yogurt.html">View more</a></button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col span_1_of_3 food-picture">
+            <a href="#"><img src="/resources/image/beverage.jpg" id="food-img" alt="beverage"></a>
+            <a href="beverage.html"> <h4>Beverage(Can food)</h4></a>
+            <button class="btn-ingre"><a href="milk.html">View more</a></button>
+          </div>
+          <div class="col span_1_of_3 food-picture">
+            <a href="#!"><img src="/resources/image/fruit juice.png" alt="fruit juice"></a>
+            <a href="#"> <h4>Fruit juice</h4></a>
+            <button class="btn-ingre"><a href="fruit-juice.html">View more</a></button>
+          </div>
+          <div class="col span_1_of_3 food-picture">
+            <a href="#"><img src="/resources/image/milk.jpg" id="food-img" alt="milk"></a>
+            <a href="milk.html"> <h4>Milk</h4></a>
+            <button class="btn-ingre"><a href="milk.html">View more</a></button>
+          </div>
+        </div>
+      </div>
+      
+    <a class="carousel-control-prev" href="#carouselIndicators3" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselIndicators3" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+
   <div id="footer"></div>
 </body>
 

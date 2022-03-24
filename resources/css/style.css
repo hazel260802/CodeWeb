@@ -46,10 +46,6 @@ body{
     html {
       font-size: 65%;
     }
-.main-section{
-    margin-left: -30%;
-    width: 200px;
-    }
     /* .navbar-brand,.nav-link{
         margin-left: 100px;
     } */
@@ -70,17 +66,17 @@ body{
 
 @media only screen and (max-width:600px) {
     html {
-      font-size: 55%;
+      font-size: 50%;
     }
     /* .navbar-nav{
         display: none;
     }
   
-    .nav-icon{
+    .nav-icon
         display: block;
     } */
     .food-picture img{
-        width: 100%;
+        width: 30%;
     }
     .logo{
         margin-left: 20px;
@@ -205,7 +201,7 @@ h4{
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 7px;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 5px;
     font-weight: 648;
     border-radius: 20px;
@@ -214,6 +210,13 @@ h4{
 .btn-ingre a{
     color: white;
 }
+.carousel-control-prev,.carousel-control-next{
+    width: 3%;
+}
+/* .carousel-control-prev-icon,.carousel-control-next-icon{
+    color: black;
+} */
+
 
 /* d-block{
     width: 50%;
@@ -280,9 +283,9 @@ h4{
     top: 20px;
     left: 20%; */
     margin-top: 50px;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-bottom: 50px;
-    width: 750px;
+    width: 80%;
 }
 .heading{
     margin-top: 40px;
@@ -305,7 +308,8 @@ h4{
 }
 
 .food-image{
-    width: 750px;
+    width: 80%;
+    height: 500px;
     /* margin-left: 100px; */
 }
 
@@ -330,12 +334,13 @@ h4{
     list-style:inside;
     line-height: 28px;
     font-size: 120%;
+    width: 75%;
 }
 
 .icon-subsection{
     display: flex;
     vertical-align: middle;
-    width: 650px;
+    width: 80%;
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -349,8 +354,9 @@ h4{
 }
 
 .dish-image{
-    width: 750px;
+    width: 80%;
     height: 500px;
+    height: 550px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
